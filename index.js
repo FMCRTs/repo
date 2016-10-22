@@ -12,8 +12,8 @@ app.listen(process.env.PORT || 5000);
 var config = {
     me: 'FMC_RTs', // The authorized account with a list to retweet.
     myList: 'twitter-rts', // The list we want to retweet.
-    regexFilter: '', // Accept only tweets matching this regex pattern.
-    regexReject: '(RT|@)', // AND reject any tweets matching this regex pattern.
+    regexFilter: '#free', // Accept only tweets matching this regex pattern.
+    regexReject: '', // AND reject any tweets matching this regex pattern.
 
     keys: {
         consumer_key: process.env.utKViqU1H3XpbrKj1CBnEDkVx,

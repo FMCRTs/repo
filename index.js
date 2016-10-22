@@ -16,10 +16,10 @@ var config = {
     regexReject: '', // AND reject any tweets matching this regex pattern.
 
     keys: {
-        consumer_key: process.env.utKViqU1H3XpbrKj1CBnEDkVx,
-        consumer_secret: process.env.YhUg2l9fvyDju2YaR04fs3OgjrXzd1jEw1YEWAp6qwgQHWNsrU,
-        access_token_key: process.env.765420582884093952-jUzcW3w7zFCvgrPrPKCiWB5w4a7tFIX,
-        access_token_secret: process.env.x164UgroKU3QyV9peQUP2W6DnZLsoXMJG6QPqlHwcVkAU,
+        consumer_key: process.env.TWITTER_CONSUMER_KEY,
+        consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
+        access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
+        access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
     },
 };
 
